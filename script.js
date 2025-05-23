@@ -1,9 +1,9 @@
 // creo una variabile e la metto uguale a 0 
-let a = 0;
+let a = 0; 
 
-// creo la funzione che la comparire il menu o l fa scomparire 
+// creo la funzione che fa comparire il menu o lo fa scomparire 
 // in base a quanto vale a 
-function compariMenu () {
+function compariMenu() {
     if(a == 0) {
         // se la a vale 0 succede quello che scrivo qui 
         document.getElementById("menu").style.display = "initial";
@@ -14,3 +14,4 @@ function compariMenu () {
         a = 0;
     }
 }
+
